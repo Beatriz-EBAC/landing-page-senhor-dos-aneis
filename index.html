@@ -1,0 +1,116 @@
+python3 -m http.server 8000<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore o universo épico de O Senhor dos Anéis. Conheça a trilogia, seus personagens e sua história.">
+    <title>O Senhor dos Anéis | Uma Jornada Épica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="header__logo">O SENHOR DOS ANÉIS</a>
+
+        <nav class="header__nav">
+            <a href="#historia">A História</a>
+            <a href="#trilogia">A Trilogia</a>
+            <a href="#personagens">Personagens</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__content">
+                <span class="hero__tag">UMA JORNADA ALÉM DA IMAGINAÇÃO</span>
+                <h1>O SENHOR<br>DOS ANÉIS</h1>
+                <p class="hero__subtitle">Uma jornada para salvar a Terra-média.</p>
+                <a class="button" href="https://www.youtube.com/results?search_query=o+senhor+dos+aneis+trailer+oficial" target="_blank" rel="noopener noreferrer">
+                    ASSISTIR AO TRAILER
+                </a>
+            </div>
+            <div class="hero__overlay"></div>
+        </section>
+
+        <section class="about" id="historia">
+            <span class="section__tag">A LENDA COMEÇA</span>
+            <h2>Uma história sobre coragem, amizade e esperança.</h2>
+            <p>
+                Em um mundo fantástico chamado Terra-média, um jovem hobbit
+                recebe a missão de destruir um poderoso anel capaz de dominar
+                todos os povos. Ao lado de seus companheiros, ele embarca em
+                uma jornada perigosa para impedir que a escuridão tome conta
+                do mundo.
+            </p>
+        </section>
+
+        <section class="trilogy" id="trilogia">
+            <span class="section__tag">A OBRA COMPLETA</span>
+            <h2>A Trilogia</h2>
+
+            <div class="trilogy__grid">
+                <article class="movie-card movie-card--one">
+                    <span class="movie-card__number">01</span>
+                    <h3>A Sociedade do Anel</h3>
+                    <p>O início de uma jornada que mudará o destino da Terra-média.</p>
+                </article>
+
+                <article class="movie-card movie-card--two">
+                    <span class="movie-card__number">02</span>
+                    <h3>As Duas Torres</h3>
+                    <p>A jornada continua enquanto a guerra se aproxima.</p>
+                </article>
+
+                <article class="movie-card movie-card--three">
+                    <span class="movie-card__number">03</span>
+                    <h3>O Retorno do Rei</h3>
+                    <p>O destino de todos será decidido na batalha final.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="characters" id="personagens">
+            <span class="section__tag">HERÓIS DA TERRA-MÉDIA</span>
+            <h2>Personagens inesquecíveis</h2>
+
+            <div class="characters__grid">
+                <article class="character">
+                    <div class="character__symbol">🧝</div>
+                    <h3>Frodo Bolseiro</h3>
+                    <p>O pequeno hobbit responsável por carregar o Um Anel.</p>
+                </article>
+
+                <article class="character">
+                    <div class="character__symbol">🗡️</div>
+                    <h3>Aragorn</h3>
+                    <p>O herdeiro de Isildur e futuro rei de Gondor.</p>
+                </article>
+
+                <article class="character">
+                    <div class="character__symbol">🧙</div>
+                    <h3>Gandalf</h3>
+                    <p>O mago que guia e protege a Sociedade do Anel.</p>
+                </article>
+
+                <article class="character">
+                    <div class="character__symbol">🏹</div>
+                    <h3>Legolas</h3>
+                    <p>O elfo arqueiro, habilidoso e leal aos seus amigos.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="final-call">
+            <h2>Até o menor dos seres pode mudar o destino do mundo.</h2>
+            <a class="button" href="#historia">EXPLORAR A JORNADA</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Projeto desenvolvido para fins educacionais.</p>
+        <p>Landing Page — O Senhor dos Anéis © 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
